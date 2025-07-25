@@ -5,12 +5,22 @@ body{
     padding: 0;
 }
 
-
-.msg-box {
-    max-width: 400px;
-    margin: 40px auto;
-    background: #d6d6d6;
+.app-top-section{
+    text-align: left;
+    display: flex;
+    height: 50px;
+    width: auto;
+    size: 20px;
     border-radius: 10px;
+}
+
+img{
+    margin-top: 5px;
+}
+.msg-box {
+    max-width: auto;
+    margin: 20px auto;
+    background: #f9f9f9;
     box-shadow: 0 2px 8px rgba(0,0,0,0.1);
     padding: 20px;
     display: flex;
@@ -25,12 +35,6 @@ body{
     margin-bottom: 10px;
 }
 
-img{
-    height: 40px;
-    width: 40px;
-    display: flex;
-    gap: 10px;
-}
 
 form {
     display: flex;
@@ -57,8 +61,8 @@ button[type="submit"] {
     color: #fff;
     border: none;
     border-radius: 6px;
-    padding: 8px 16px;
-    font-size: 15px;
+    padding: 4px 8px;
+    font-size: 30px;
     cursor: pointer;
 }
 
