@@ -1,21 +1,38 @@
 <!DOCTYPE html>
-<meta lang="en">
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Messaging App</title>
 </head>
 <body>
-    <div class="app-top-section" id="app-top-section">
-    <p>Messaging app</p>
-    <img src="message-app-icon-6.jpg" alt="app">
+
+  <div class="top-section">
+    <div class="app-info">
+      <p>Messaging app</p>
+      <img src="message-app-icon-6.jpg" alt="app" />
     </div>
-    <div class="msg-box">
-         <form>
-            <input type="text" id="msg-input" placeholder="Message..." required>
-                <div class="send-button" id="send-button">
-                <button type="submit">➤</button>
-                </div>
-         </form>
-        </div>
+    <div class="app-menu">
+      <p>&#8942;</p>    <!-- Menu (⋮) -->
+      <p>⌕</p> 
+
+    </div>
+  </div>
+
+  <div class="messages">
+    <div class="msg msg-left">Hello! How are you?</div>
+    <div class="msg msg-right">I'm great, thanks! 😊</div>
+  </div>
+
+  <div class="msg-box">
+    <form>
+      <input type="text" id="msg-input" placeholder="   Message..." required />
+      <div class="send-button" id="send-button">
+        <button type="submit">➤</button>
+      </div>
+    </form>
+  </div>
+
 </body>
+</html>
