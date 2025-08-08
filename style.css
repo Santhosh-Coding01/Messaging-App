@@ -1,8 +1,16 @@
 body {
-  background: #2e77ff;
-  font-family: 'Segoe UI', Arial, Helvetica, sans-serif;
+  background: #e6e6e6;
+  font-family: 'Segoe UI', Arial, sans-serif;
   margin: 0;
   padding: 0;
+}
+.app-container {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  background: #abc8ff;
+  border-radius: 12px;
+  border: 1px solid #97cdff;
 }
 
 .top-section {
@@ -10,12 +18,15 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 0 20px;
+  height: 60px;
   background: #dadada;
-  box-shadow: 0px 2px 8px rgba(30, 0, 255, 0.2);
+  border-bottom: 2px solid grey;
 }
 
 .app-info {
   display: flex;
+  font-weight: bold;
+  font-size: 20px;
   align-items: center;
   gap: 10px;
 }
@@ -29,12 +40,8 @@ body {
 }
 
 .app-menu p {
-  font: 20px;
-  border: 1px solid #575757;
-  padding: 0 20px;
-  border-radius: 18px;
-  color: #fff;
-  background: #2e77ff;
+  font: 22px;
+  color: #000000;
 }
 
 /* icon */
@@ -44,47 +51,79 @@ img {
   margin-top: 5px;
 }
 
-.messages{
-    border: #000000 ;
+.chat-name{
+  font-size: 18px;
+  padding: 10px;
+  border-bottom: 2px dashed rgb(167, 167, 167) ;
+  background: #dadada;
+}
+
+.chat-box{
+      display: flex;
+      flex-direction: column;
+      min-height: 320px;
 }
 
 
 .msg{
-    text-align: left ;
     padding: 10px 15px;
-    background: #b1b1b1;
-    border: 2px solid #505050;
-    border-radius: 20px;
-    display: inline-block;
     max-width: 70%;
-    margin: 10px;
-    word-wrap: break-word;
     font-size: 15px;
-    color: #000;
 }
 
-.msg-left {
+.receiver {
+    display: flex;
     align-self: flex-start;
+    margin: 10px 5px;
+
+}
+
+.user-pic {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #aaaaaa;
+    margin: 0 5px;
+}
+.msg-left {
+    border-radius: 20px 20px 20px 0;
     background-color: #e0e0e0;
 }
 
-.msg-right {
+.sender {
+    display: flex;
     align-self: flex-end;
-    background-color: #87c5ff;
+    margin-right: 10px 3px;
+  }
+
+.msg-right {
+    border-radius: 20px 20px 0px 20px;
+    background-color: #4f92ff;
 }
 
+    .msg-time {
+      color: #3f3f3f;
+      font-size: 12px;
+      margin: 0 5px;
+      align-self: flex-end;
+    }
 
 .msg-box {
-  background: #b1b1b1;
+  background: #ededed;
   padding: 15px 20px;
   display: flex;
   align-items: center;
   position: fixed;
   bottom: 0;
   left: 0;
-  width: 100%;
-  border-top: 2px solid #5c5c5c;
+  right: 0;
   border-radius: 10px;
+  margin: auto;
+  max-width: 490px;
+  align-items: center;
+    box-shadow: 0 2px 8px rgba(141, 141, 141, 0.5);
+
+
 }
 
 form {
@@ -96,7 +135,7 @@ form {
 #msg-input {
   flex: 1;
   padding: 8px;
-  border: 2px solid #575757;
+  border: 1px solid #9c9c9c;
   border-radius: 25px;
   font-size: 15px;
 }
