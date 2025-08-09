@@ -8,9 +8,9 @@ body {
   width: 100%;
   max-width: 600px;
   margin: 0 auto;
-  background: #abc8ff;
+  background: #e5eeff;
   border-radius: 12px;
-  border: 1px solid #97cdff;
+  border: 1px solid rgb(175, 175, 175);
 }
 
 .top-section {
