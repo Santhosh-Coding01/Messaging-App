@@ -94,6 +94,7 @@ img {
     display: flex;
     align-self: flex-end;
     margin-right: 10px 3px;
+    color: #fff;
   }
 
 .msg-right {
@@ -154,3 +155,4 @@ button[type="submit"] {
 button:hover {
   background: #1951ba;
 }
+
