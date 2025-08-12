@@ -8,7 +8,7 @@ body {
   width: 100%;
   max-width: 600px;
   margin: 0 auto;
-  background: #e5eeff;
+  background: #f3f7ff;
   border-radius: 12px;
   border: 1px solid rgb(175, 175, 175);
 }
@@ -154,3 +154,4 @@ button[type="submit"] {
 button:hover {
   background: #1951ba;
 }
+
