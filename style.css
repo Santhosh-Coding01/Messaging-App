@@ -59,9 +59,9 @@ img {
 }
 
 .chat-box{
-      display: flex;
-      flex-direction: column;
-      min-height: 320px;
+  display: flex;
+  flex-direction: column;
+  min-height: 320px;
 }
 
 
@@ -101,12 +101,12 @@ img {
     background-color: #4f92ff;
 }
 
-    .msg-time {
-      color: #3f3f3f;
-      font-size: 12px;
-      margin: 0 5px;
-      align-self: flex-end;
-    }
+.msg-time {
+  color: #3f3f3f;
+  font-size: 12px;
+  margin: 0 5px;
+  align-self: flex-end;
+}
 
 .msg-box {
   background: #ededed;
